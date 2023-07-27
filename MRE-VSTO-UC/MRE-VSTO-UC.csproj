@@ -166,27 +166,19 @@
     can be found.
   -->
   <ItemGroup>
-    <Compile Include="CtpUserControls\ClsC1.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Include="CtpUserControls\ClsC1.cs" />
     <Compile Include="CtpUserControls\ClsC1.Designer.cs">
       <DependentUpon>ClsC1.cs</DependentUpon>
     </Compile>
-    <Compile Include="CtpUserControls\ClsC2.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Include="CtpUserControls\ClsC2.cs" />
     <Compile Include="CtpUserControls\ClsC2.Designer.cs">
       <DependentUpon>ClsC2.cs</DependentUpon>
     </Compile>
-    <Compile Include="CtpUserControls\ClsP1.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Include="CtpUserControls\ClsP1.cs" />
     <Compile Include="CtpUserControls\ClsP1.Designer.cs">
       <DependentUpon>ClsP1.cs</DependentUpon>
     </Compile>
-    <Compile Include="CtpUserControls\ClsP2.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Include="CtpUserControls\ClsP2.cs" />
     <Compile Include="CtpUserControls\ClsP2.Designer.cs">
       <DependentUpon>ClsP2.cs</DependentUpon>
     </Compile>
@@ -219,6 +211,7 @@
     </EmbeddedResource>
     <None Include="ClassDiagrams\ClassDiagram1.cd" />
     <None Include="MRE-VSTO-UC_TemporaryKey.pfx" />
+    <None Include="Packages.zip" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -227,9 +220,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Ribbon1.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Include="Ribbon1.cs" />
     <Compile Include="Ribbon1.Designer.cs">
       <DependentUpon>Ribbon1.cs</DependentUpon>
     </Compile>
@@ -243,21 +234,6 @@
       <DependentUpon>ThisAddIn.Designer.xml</DependentUpon>
     </Compile>
     <AppDesigner Include="Properties\" />
-  </ItemGroup>
-  <ItemGroup>
-    <AdditionalFiles Include="Packages\DevExpress.Data.Desktop.v22.2.dll" />
-    <AdditionalFiles Include="Packages\DevExpress.Data.Desktop.v22.2.xml" />
-    <AdditionalFiles Include="Packages\DevExpress.Data.v22.2.dll" />
-    <AdditionalFiles Include="Packages\DevExpress.Data.v22.2.xml" />
-    <AdditionalFiles Include="Packages\DevExpress.Drawing.v22.2.dll" />
-    <AdditionalFiles Include="Packages\DevExpress.Pdf.v22.2.Core.dll" />
-    <AdditionalFiles Include="Packages\DevExpress.Pdf.v22.2.Core.xml" />
-    <AdditionalFiles Include="Packages\DevExpress.Pdf.v22.2.Drawing.dll" />
-    <AdditionalFiles Include="Packages\DevExpress.Pdf.v22.2.Drawing.xml" />
-    <AdditionalFiles Include="Packages\DevExpress.Printing.v22.2.Core.dll" />
-    <AdditionalFiles Include="Packages\DevExpress.Printing.v22.2.Core.xml" />
-    <AdditionalFiles Include="Packages\DevExpress.Utils.v22.2.dll" />
-    <AdditionalFiles Include="Packages\DevExpress.Utils.v22.2.xml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
