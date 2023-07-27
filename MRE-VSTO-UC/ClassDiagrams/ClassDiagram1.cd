@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Since I can't derive ClsC1 and ClsC2 from both  ClsP1 and ClsP2 at design time, I want to derive ClsC1 or ClsC2 from ClsP1 or ClsP2 at run time, i.e., derive:&#xD;&#xA;&#xD;&#xA;ClsC1 from ClsP1, or&#xD;&#xA;ClsC1 from ClsP2, or&#xD;&#xA;ClsC2 from ClsP1, or&#xD;&#xA;ClsC2 from ClsP2.">
+    <Position X="9.754" Y="5.513" Height="1.604" Width="2.804" />
+  </Comment>
+  <Class Name="MRE_VSTO_UC.ClsC1">
+    <Position X="4" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAIAAAAAADAAAACAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>CtpUserControls\ClsC1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRE_VSTO_UC.CtpUserControls.ClsP1">
+    <Position X="5.5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAASAAAAAAAACAAAACAAAgAAAAgCAAAAiAAAA=</HashCode>
+      <FileName>CtpUserControls\ClsP1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRE_VSTO_UC.CtpUserControls.ClsC2">
+    <Position X="6.75" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACABAAAAAADAAAACIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CtpUserControls\ClsC2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRE_VSTO_UC.CtpUserControls.ClsP2">
+    <Position X="10.25" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAgACAAAAAAAACAAAQCAEAAAAAAAAABAABAAAA=</HashCode>
+      <FileName>CtpUserControls\ClsP2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.UserControl" Collapsed="true">
+    <Position X="7.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MRE_VSTO_UC.ThisAddIn">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAwAACQCBAAEQAgAQEAgFgAAAAgABAQAAgAIAAQACg=</HashCode>
+      <FileName>ThisAddIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRE_VSTO_UC.Ribbon1">
+    <Position X="2.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAQAAAAACAAgAQAEACAAAACAEAAAAAAAAAAIACABAA=</HashCode>
+      <FileName>Ribbon1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
