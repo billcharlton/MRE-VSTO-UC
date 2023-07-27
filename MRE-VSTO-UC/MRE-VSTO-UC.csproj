@@ -244,6 +244,21 @@
     </Compile>
     <AppDesigner Include="Properties\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Packages\DevExpress.Data.Desktop.v22.2.dll" />
+    <Content Include="Packages\DevExpress.Data.Desktop.v22.2.xml" />
+    <Content Include="Packages\DevExpress.Data.v22.2.dll" />
+    <Content Include="Packages\DevExpress.Data.v22.2.xml" />
+    <Content Include="Packages\DevExpress.Drawing.v22.2.dll" />
+    <Content Include="Packages\DevExpress.Pdf.v22.2.Core.dll" />
+    <Content Include="Packages\DevExpress.Pdf.v22.2.Core.xml" />
+    <Content Include="Packages\DevExpress.Pdf.v22.2.Drawing.dll" />
+    <Content Include="Packages\DevExpress.Pdf.v22.2.Drawing.xml" />
+    <Content Include="Packages\DevExpress.Printing.v22.2.Core.dll" />
+    <Content Include="Packages\DevExpress.Printing.v22.2.Core.xml" />
+    <Content Include="Packages\DevExpress.Utils.v22.2.dll" />
+    <Content Include="Packages\DevExpress.Utils.v22.2.xml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
